@@ -1,7 +1,7 @@
 ----------------------
 
 Robert's Log Analyzer
-Version 1.0 - (June 10, 2014)
+Version 1.1 - (June 30, 2014)
 
 ----------------------
 
@@ -38,7 +38,7 @@ Feel free to create a support topic there for computer support!
 
 This script must be installed on a machine with support of PHP.
 
-To install Robert's Log Analyzer, create a new directy in which to run the software.
+To install Log Spam Checker, create a new directy in which to run the software.
 Then, extract the contents of the .zip file into the new directory.
 
 
@@ -48,14 +48,12 @@ Then, extract the contents of the .zip file into the new directory.
 
 ----------------------
 
-Find the log file you wish to analyze.  Your website's log file may be in a separate 
- folder of your host called "logs" or something similar. Then, copy the log (the log
- may be named "yourDomain.com") to the same directory you installed to in step 2. The
- log file should be in the same folder as index.php.
+After installation, navigate to the index.php file in the directory you created.
+Create an admin account, then log in.  Input the relative url to the log file you
+wish to analyze.
  
- Once your log file is in the same folder as index.php, rename it to log.txt. Then 
-load index.php in your web browser.  After the log file has been analyzed, you can 
-use sort the tables by  clicking on entries in the top row.
+Click "Analyze Log".  After the log file has been analyzed, you can sort the tables 
+by clicking on the column headers.
 
 
 ----------------------
@@ -64,11 +62,8 @@ use sort the tables by  clicking on entries in the top row.
 
 ----------------------
 
--update notifications
+-update notifications (possibly automatic software updates)
 -attractive interface
--a better way to query the blacklist
--log upload capabilities
--settings file with location of log on server
 -ability to one-click block ips via .htaccess
 -ability to edit the threshold for when to query the blacklist (currently querys blacklist
  after 100 entries for the IP)
