@@ -70,12 +70,23 @@
 </head>
 <body>
 
+	<a href="analyzer.php">Analyze Log</a><br />
+	<a href="admin.php">Settings</a> 
+	<?php
+		if($path_to_log === "")
+		{
+			echo "<-- Your log path is not set.  Set it here.";
+		}
+	?>
+	<br><br>
+
+
 	<?php
 	
 	$numberOfBlocklistRequests = 0;
 	require 'blacklistManager.php';
 
-	$file = fopen("log.txt", "r");
+	$file = fopen($path_to_log, "r");
 	if($file)
 	{
 		$i = 1;
@@ -205,7 +216,7 @@
 	}
 	else
 	{
-		echo "No log file found. Make sure the log is named \"log.txt\" and is in the same directory as this file.";
+		echo "No log file found. Make sure the path for your log file is correct in your <a href=\"admin.php\">settings</a>.";
 	}
 
 	?>
