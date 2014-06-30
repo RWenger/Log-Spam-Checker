@@ -1,7 +1,7 @@
 ----------------------
 
 Robert's Log Analyzer
-Version 1.0 - (February 1, 2014)
+Version 1.0 - (June 10, 2014)
 
 ----------------------
 
@@ -10,10 +10,8 @@ Table of Contents
 1. Contact Information
 2. Installation
 3. Use
-4. Blocking Attackers
-5. License
-6. Planned Features
-7. Credits
+4. Planned Features
+5. Credits
 
 
 ----------------------
@@ -62,42 +60,22 @@ use sort the tables by  clicking on entries in the top row.
 
 ----------------------
 
-4. Blocking Attackers
+4. Planned Features
 
 ----------------------
-
-To fill in later.
-
-
-----------------------
-
-5. License
-
-----------------------
-
-To fill in later.
-
-----------------------
-
-6. Planned Features
-
-----------------------
-
-To fill in later.
 
 -update notifications
 -interface
 -a better way to query the blacklist
+-log upload capabilities
+-settings file with location of log on server
+-ability to one-click block ips via .htaccess
 
 ----------------------
 
-7. Credits
+4. Credits
 
 ----------------------
 
-To fill in later.
-
-- http://tablesorter.com/docs/ Christian Bach
-- jquery
-- blocklist.de
-- Testers
+- Table sorter by Christian Bach: http://tablesorter.com/docs/
+- Spammer database: blocklist.de
