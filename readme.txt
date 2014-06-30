@@ -1,6 +1,6 @@
 ----------------------
 
-Robert's Log Analyzer
+Apache Server Log Spam Analyzer
 Version 1.1 - (June 30, 2014)
 
 ----------------------
