@@ -65,11 +65,13 @@ use sort the tables by  clicking on entries in the top row.
 ----------------------
 
 -update notifications
--interface
+-attractive interface
 -a better way to query the blacklist
 -log upload capabilities
 -settings file with location of log on server
 -ability to one-click block ips via .htaccess
+-ability to edit the threshold for when to query the blacklist (currently querys blacklist
+ after 100 entries for the IP)
 
 ----------------------
 
