@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Robert's Log Analyzer</title>
+	<title>Log Spam Analyzer</title>
 	<link rel="stylesheet" type="text/css" href="tableSorter/themes/blue/style.css">
 
 	<script type="text/javascript" src="jquery-1.11.0.min.js"></script> 
@@ -201,7 +201,7 @@
 	}
 	else
 	{
-		echo "No log file found. Make sure the log is named \"log.txt\".";
+		echo "No log file found. Make sure the log is named \"log.txt\" and is in the same directory as this file.";
 	}
 
 	?>
