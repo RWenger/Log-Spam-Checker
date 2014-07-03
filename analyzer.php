@@ -6,6 +6,7 @@
 <head>
 	<title>Log - Log Spam Analyzer</title>
 	<link rel="stylesheet" type="text/css" href="tableSorter/themes/blue/style.css">
+	<link rel="stylesheet" type="text/css" href="theme/style.css">
 
 	<script type="text/javascript" src="jquery-1.11.0.min.js"></script> 
 	<script type="text/javascript" src="tableSorter/jquery.tablesorter.js"></script>
@@ -69,14 +70,11 @@
 	
 </head>
 <body>
-
-	<a href="analyzer.php">Analyze Log</a><br />
-	<a href="admin.php">Settings</a> 
+	<div id="container">
+	
 	<?php
-		if($path_to_log === "")
-		{
-			echo "<-- Your log path is not set.  Set it here.";
-		}
+	
+		require("links.php");
 	?>
 	<br><br>
 
@@ -220,5 +218,6 @@
 	}
 
 	?>
+	</div>
 </body>
 </html>

@@ -28,8 +28,13 @@
 <html>
 <head>
 	<title>Login - Log Spam Analyzer</title>
+	<link rel="stylesheet" type="text/html" href="theme/style.css" />
 </head>
 <body>
+	<div id="container">
+	<?php
+		require("links.php");
+	?>
 	<h1>Login:</h1>
 	<span style="color:red;"><?php echo $error_text; ?></span>
 	<form name="login" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" >
@@ -37,5 +42,6 @@
 		Password: <input type="password" name="password"><br>
 		<input type="submit" name="submit">
 	</form>
+	</div>
 </body>
 </html>

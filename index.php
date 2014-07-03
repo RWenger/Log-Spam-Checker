@@ -6,15 +6,13 @@
 <head>
 	<title>Log Spam Analyzer</title>
 </head>
+<link rel="stylesheet" type="text/css" href="theme/style.css" />
 <body>
-	
-	<a href="analyzer.php">Analyze Log</a><br />
-	<a href="admin.php">Settings</a> 
+	<div id="container">
 	<?php
-		if($path_to_log === "")
-		{
-			echo "<-- Your log path is not set.  Set it here.";
-		}
+	
+		require("links.php");
 	?>
+	</div>
 </body>
 </html>

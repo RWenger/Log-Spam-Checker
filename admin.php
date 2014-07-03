@@ -22,14 +22,13 @@
 <head>
 	<title>Settings - Log Spam Analyzer</title>
 </head>
+<link rel="stylesheet" type="text/css" href="theme/style.css" />
 <body>
-	<a href="analyzer.php">Analyze Log</a><br />
-	<a href="admin.php">Settings</a> 
+<div id="container">
+	
 	<?php
-		if($path_to_log === "")
-		{
-			echo "<-- Your log path is not set.  Set it here.";
-		}
+	
+		require("links.php");
 	?>
 
 
@@ -39,5 +38,6 @@
 		Log file path: <input type="text" name="logPath" value="<?php echo addslashes($path_to_log);?>"><br>
 		<input type="submit" name="submit">
 	</form>
+</div>
 </body>
 </html>

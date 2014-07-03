@@ -27,13 +27,16 @@ if(isset($_POST['submit']))
 <html>
 <head>
 	<title>Setup Admin Password - Log Spam Analyzer</title>
+	<link rel="stylesheet" type="text/css" href="theme/style.css" />
 </head>
 <body>
+	<div id="container">
 	<h1>Set up your administrative account account:</h1>
 	<form name="adminDetails" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" >
 		Username: <input type="text" name="username"><br>
 		Password: <input type="password" name="password"><br>
 		<input type="submit" name="submit">
 	</form>
+	</div>
 </body>
 </html>
